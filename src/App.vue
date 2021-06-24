@@ -1,12 +1,15 @@
 <template>
- <h1>h</h1>
+ <NavHeader/>
 </template>
 
 <script>
+import NavHeader from "./components/NavHeader"
 
 export default {
+
   name: "App",
   components: {
+    NavHeader,
   },
 };
 </script>
